@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlanRacingPhotos | Eternizando a Emoção sobre Duas Rodas</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;900&family=Barlow:wght@400;500;600&display=swap');
+        
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        
+        .page { font-family: 'Barlow', sans-serif; background: #f0f0f0; color: #111; overflow-x: hidden; }
+        
+        .top-bar { position: relative; z-index: 10; background: #111; padding: 10px 24px; display: flex; align-items: center; gap: 12px; }
+        .logo-img { height: 80px; width: auto; }
+        .logo-text-group { display: flex; flex-direction: column; }
+        .logo-icon { background: #cc0000; padding: 2px 8px; font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 14px; letter-spacing: 1px; color: #fff; clip-path: polygon(4px 0, 100% 0, calc(100% - 4px) 100%, 0 100%); }
+        .logo-sub { font-family: 'Barlow Condensed', sans-serif; font-size: 11px; font-weight: 700; letter-spacing: 3px; color: #aaa; text-transform: uppercase; }
+        .accent-bars { display: flex; gap: 4px; margin-left: auto; }
+        .accent-bars div { width: 3px; height: 20px; background: #cc0000; }
+        .accent-bars div:nth-child(2) { opacity: 0.5; height: 14px; }
+        .accent-bars div:nth-child(3) { opacity: 0.25; height: 9px; }
+
+        .hero { position: relative; min-height: 500px; background: #e8e8e8; overflow: hidden; display: flex; flex-direction: column; justify-content: flex-end; padding: 0 0 40px 0; }
+        .hero-bg { position: absolute; inset: 0; background: url('https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800') right center/cover no-repeat; opacity: 0.18; }
+        .hero-overlay { position: absolute; inset: 0; background: linear-gradient(90deg, rgba(235,235,235,0.97) 42%, rgba(235,235,235,0.1) 100%); }
+        .stripe { position: absolute; right: 60px; top: 0; bottom: 0; width: 6px; background: #cc0000; transform: skewX(-8deg); }
+        .stripe2 { position: absolute; right: 48px; top: 0; bottom: 0; width: 3px; background: #e63030; transform: skewX(-8deg); }
+        .hero-content { position: relative; z-index: 2; padding: 0 24px; }
+        .hero-title { font-family: 'Barlow Condensed', sans-serif; font-weight: 900; font-size: 58px; line-height: 0.92; text-transform: uppercase; color: #111; }
+        .hero-title span { color: #cc0000; }
+        .hero-divider { width: 48px; height: 4px; background: #cc0000; margin: 16px 0; }
+        .hero-sub { font-size: 14px; color: #555; margin-bottom: 24px; max-width: 280px; }
+        .btn-cta { display: inline-block; background: #cc0000; color: #fff; font-family: 'Barlow Condensed', sans-serif; font-weight: 700; font-size: 13px; letter-spacing: 2px; text-transform: uppercase; padding: 14px 30px; clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 50%, calc(100% - 8px) 100%, 0 100%, 8px 50%); border: none; cursor: pointer; transition: 0.3s; }
+        .btn-cta:hover { background: #a80000; transform: scale(1.05); }
+        .tags { display: flex; gap: 8px; margin-top: 20px; }
+        .tags span { font-size: 10px; letter-spacing: 1px; color: #777; text-transform: uppercase; border: 1px solid #ddd; padding: 4px 10px; background: #fff; }
+        .section-sponsors { background: #fff; padding: 40px 24px; border-top: 4px solid #cc0000; }
+        .section-title { font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 4px; text-transform: uppercase; color: #bbb; text-align: center; margin-bottom: 25px; display: flex; align-items: center; gap: 15px; }
+        .section-title::before, .section-title::after { content: ''; flex: 1; height: 1px; background: #eee; }
+        .sponsor-container { display: flex; justify-content: center; align-items: center; }
+        .sponsor-card { background: #fcfcfc; border: 10px solid #efefef; border-top: 10px solid #ddd; border-radius: 10px; padding: 25px; display: flex; align-items: center; justify-content: center; min-height: 120px; max-width: 300px; width: 100%; }
+        .sponsor-logo { max-width: 180%; max-height: 180px; object-fit: contain; }
+        .footer { background: #111; padding: 25px; text-align: center; cursor: pointer; border-top: 1px solid #222; }
+        .ig-badge { display: inline-flex; align-items: center; background: #cc0000; color: #fff; font-family: 'Barlow Condensed', sans-serif; font-size: 12px; font-weight: 700; letter-spacing: 2px; padding: 6px 15px; border-radius: 2px; margin-bottom: 10px; text-transform: uppercase; }
+        .footer-url { font-size: 12px; color: #666; letter-spacing: 1px; }
+    </style>
+</head>
+<body>
+<div class="page">
+    <div class="top-bar">
+        <img src="logo-alan.png" alt="Logo Alan Racing" class="logo-img">
+        <div class="logo-text-group">
+        </div>
+        <div class="accent-bars"><div></div><div></div><div></div></div>
+    </div>
+  
+
+   
+</div>
+       <div class="hero" style="min-height: auto; padding: 0;">
+  <div style="display: flex; width: 100%; height: 500px; overflow: hidden;">
+    <img src="Foto-moto.jpg" style="width: 33.33%; height: 100%; object-fit: cover; object-position: top;">
+    <img src="Foto-2.jpg" style="width: 33.33%; height: 100%; object-fit: cover; object-position: top;">
+    <img src="foto-3.jpg" style="width: 33.33%; height: 100%; object-fit: cover; object-position: top;">
+</div>
+    </div>
+
+    <div class="stripe"></div>
+    <div class="stripe2"></div>
+
+    <div class="hero-content" style="padding: 40px 24px;">
+        <div class="hero-title">O Especialista<br>em Foto Velocidade<span> na BR-060</span></div>
+        <div class="hero-divider"></div>
+        <div class="hero-sub">Siga meu instagram para saber o próximo destino.</div>
+        <button class="btn-cta" onclick="openLink('https://alan-racingphotos.fotto.com.br/')">ACESSAR O SITE</button>
+        <div class="tags"><span>#apaixonados por moto</span><span>#velocidade</span><span>#pilotagem</span></div>
+    </div>
+</div>
+        </div><img src="ewandronathanyel/Portif-lio-/foto-ewandro.jpg" alt="">
+    </div>
+    <div class="section-sponsors">
+    <div class="section-title">Patrocinadores</div>
+    <div class="sponsor-container">
+        <div class="sponsor-card">
+            <a href="https://www.instagram.com/proracingdf/" target="_blank">
+                <img src="Logo Pro Racing.jpg" class="sponsor-logo" alt="Instagram Pro Racing">
+            </a>
+        </div>
+    </div>
+</div>
+    <div class="footer" onclick="openLink('https://www.instagram.com/alanracingphotos/')">
+        <div class="ig-badge">@ Instagram</div>
+    </div>
+</div>
+<script>
+    function openLink(url) { window.open(url, '_blank'); }
+</script>
+</body>
+</html>
